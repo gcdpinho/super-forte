@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-header {
-  background: url(../img/banner.jpeg) no-repeat;
+  background: url("https://smartop.ind.br/wp-content/uploads/2016/03/4unnamed.jpg") no-repeat;
   background-size: cover;
   min-height: 610px;
 }
@@ -71,8 +71,12 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 2px;
 }
 
+.navbar-default:hover .navbar-brand:hover {
+  color: #fff;
+}
+
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  color: #FFD34E;
+  color: #6397c2;
   text-transform: uppercase;
 	background-color: transparent;
 }
@@ -85,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-  color: #FFD34E;
+  color: #6397c2;
 }
 
 .navbar-fixed-top {
@@ -101,7 +105,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .top-nav-collapse {
-  background: rgba(0, 0, 0, 0.8);
+  /*background: rgba(0, 0, 0, 0.8);*/
+  background: #28374c;
   padding: 25px 0;
 }
 
@@ -142,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-submit {
-  background: #FFD34E;
+  background: #28374c;
   border: 0px;
   display: inline-block;
   font-size: 16px;
@@ -151,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   border-radius: 0px;
   letter-spacing: 1px;
-  color: #333;
+  color: #fff;
   position: relative;
   overflow: hidden;
   -webkit-transition: all 0.4s ease-in-out;
@@ -160,11 +165,12 @@ h1, h2, h3, h4, h5, h6 {
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   margin-top: 25px;
-  border: 2px solid #FFD34E;
+  border: 2px solid #6397c2;
 }
 
 .btn-submit:hover {
-  background: #fff;
+  background: #6397c2;
+  border: 2px solid #28374c;
 }
 
 /****/
@@ -174,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cta-info {
-  border: 5px solid #FFD34E;
+  border: 5px solid #6397c2;
   padding: 40px 0px;
 }
 
@@ -193,13 +199,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .head-title {
-  color: #2b2b2b;
+  color: #28374c;
   font-size: 32px;
   font-weight: 700;
 }
 
 .botm-line {
-  background-color: #2b2b2b;
+  background-color: #6397c2;
   width: 34px;
   height: 3px;
   display: inline-block;
@@ -336,12 +342,16 @@ h3.txt-tl {
 
 .btn-send {
   border-radius: 0px;
-  color: #000;
-  background-color: #FFD34E;
+  color: #fff;
+  background-color: #28374c;
+}
+.btn-send:hover {
+  color: #fff;
+  background-color: #6397c2;
 }
 
 a, a:hover {
-  color: #FFD34E;
+  color: #6397c2;
 }
 
 .cont-title {
@@ -387,7 +397,7 @@ a, a:hover {
 /****/
 
 #footer {
-  background-color: #191919;
+  background-color: #28374c;
   padding: 20px 0px;
 }
 
@@ -403,7 +413,7 @@ a, a:hover {
 
 .footer-social a {
   font-size: 18px;
-  color: #666;
+  color: #fff;
 }
 
 .link-dec, .link-dec:hover {
