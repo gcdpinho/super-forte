@@ -1,0 +1,29 @@
+.pages-noticias {
+    margin: 1em 3em;
+}
+
+.not {
+    background-color: #dfdfdf;
+    margin: 1em;
+}
+
+.noticias-img {
+    width: 95%;
+    margin: 1em;
+}
+
+.noticia-msg {
+    margin: 0 1em;
+    margin-bottom: 1em;
+    cursor: default;
+}
+
+.hashTag{
+    font-size: 14px;
+    color: #1981c3;
+  }
+  
+  .hashTag:hover, .hashTag:active, .hashTag:focus, .hashTag:visited{
+    text-decoration: underline;
+    color: #1981c3;
+  }
