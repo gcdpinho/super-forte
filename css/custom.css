@@ -46,3 +46,20 @@
     text-decoration: underline;
     color: #1981c3;
 }
+
+.logo{
+    width: 100px;
+}
+
+.v-center{
+    display: flex;
+    align-items: center;
+}
+
+#mynavbar{
+    width: 100%;
+}
+
+#mynavbar ul {
+    float: right;
+}

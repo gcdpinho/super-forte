@@ -31,8 +31,10 @@
   $(window).scroll(function () {
     if ($(".navbar-default").offset().top > 50) {
       $(".navbar-fixed-top").addClass("top-nav-collapse");
+      $('.logo').attr('src', 'img/logo-branco.png')
     } else {
       $(".navbar-fixed-top").removeClass("top-nav-collapse");
+      $('.logo').attr('src', 'img/logo.png')
     }
 
   });
