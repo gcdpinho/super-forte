@@ -97,9 +97,9 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.navbar-collapse {
-		background: rgba(0, 0, 0, 0.8);
+		background: rgba(40, 55, 76, 0.8);
 		border-top: 0;
 	}
 }
@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 123px;
   font-weight: 700;
   color: #fff;
-  line-height: 88px;
+  /*line-height: 100px;*/
   letter-spacing: 4px;
   opacity: 1;
   text-transform: uppercase;
@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /****/
 
-#feature {
+#feature, #services {
   background-color: #f8f8f8;
 }
 
