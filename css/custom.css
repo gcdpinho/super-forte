@@ -86,6 +86,12 @@ button.navbar-toggle {
     border: 1px solid #ababab
 }
 
-.txt-para.invisible{
+.txt-para.invisible {
     visibility: hidden;
+}
+
+@media (max-width: 991px) {
+    .bd-top {
+        border-top: 1px solid #ababab
+    }
 }
