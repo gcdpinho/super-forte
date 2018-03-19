@@ -57,7 +57,7 @@
         var count = 0;
         for (var i = 0; i < response.data.length; i++) {
           if (response.data[i]['message'] != undefined) {
-            if (count == 10)
+            if (count ==8)
               break;
             $('.pages-not' + aux).append("<div class='row not'>  <div class='_3x-2 text-center'> <img class='noticias-img' src=' " + response.data[i]['full_picture'] + "'/> \
                     <div class='noticia-msg' align='justify'> " + hashTag(response.data[i]['message']) + "</div>");
