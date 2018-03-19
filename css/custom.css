@@ -55,7 +55,6 @@
     #mynavbar {
         margin-top: 20px;
     }
-    
 }
 
 button.navbar-toggle {
@@ -69,4 +68,24 @@ button.navbar-toggle {
     background-color: transparent;
     color: white;
     border-color: white;
+}
+
+.img-produtos {
+    width: 100%;
+}
+
+.icon-text {
+    padding: 0;
+}
+
+.produtos {
+    margin: 30px 0;
+}
+
+.bd {
+    border: 1px solid #ababab
+}
+
+.txt-para.invisible{
+    visibility: hidden;
 }
