@@ -32,11 +32,13 @@
     if ($(".navbar-default").offset().top > 50) {
       $(".navbar-fixed-top").addClass("top-nav-collapse");
       $('.logo').attr('src', 'img/logo-branco.png')
-      $('.logo').css('width', '60px');
+      if ($(window).width() > 769)
+        $('.logo').css('width', '70px');
     } else {
       $(".navbar-fixed-top").removeClass("top-nav-collapse");
       $('.logo').attr('src', 'img/logo.png')
-      $('.logo').css('width', '100px');
+      if ($(window).width() > 769)
+        $('.logo').css('width', '100px');
     }
 
   });
@@ -59,7 +61,7 @@
         var count = 0;
         for (var i = 0; i < response.data.length; i++) {
           if (response.data[i]['message'] != undefined) {
-            if (count ==8)
+            if (count == 8)
               break;
             $('.pages-not' + aux).append("<div class='row not'>  <div class='_3x-2 text-center'> <img class='noticias-img' src=' " + response.data[i]['full_picture'] + "'/> \
                     <div class='noticia-msg' align='justify'> " + hashTag(response.data[i]['message']) + "</div>");
@@ -67,7 +69,7 @@
               aux = 2;
             else
               aux = 1;
-            count ++;
+            count++;
           }
         }
 

@@ -76,16 +76,14 @@ button.navbar-toggle {
 }
 
 .img-produtos {
-    width:85%;
+    width: 85%;
 }
 
 .icon-text {
     padding: 0;
 }
 
-.produtos {
-    
-}
+.produtos {}
 
 .bd {
     border: 1px solid #ababab
@@ -99,16 +97,60 @@ button.navbar-toggle {
     .bd-top {
         border-top: 1px solid #ababab
     }
+    #mynavbar {
+        box-shadow: none;
+    }
 }
 
-.btn.btn-send:focus{
-  color: white;  
+@media (max-width: 769px) {
+    .traducao-mobile {
+        display: block !important;
+    }
+
+    .traducao{
+        display: none !important;
+    }
+
+    .logo{
+        width: 80px;
+    }
 }
 
-.bd-top{
+.btn.btn-send:focus {
+    color: white;
+}
+
+.bd-top {
     padding-top: 20px;
 }
 
-.bd-bottom{
+.bd-bottom {
     padding-bottom: 20px;
+}
+
+.traducao {
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    top: 40px;
+    right: 20px;
+}
+
+.traducao-mobile {
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    top: 51px;
+    right: 0px;
+    display: none;
+}
+
+.traducao a,
+.traducao-mobile a {
+    color: white;
+    text-transform: uppercase;
+}
+
+ul.navbar-nav {
+    margin-right: 100px;
 }
