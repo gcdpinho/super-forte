@@ -95,3 +95,7 @@ button.navbar-toggle {
         border-top: 1px solid #ababab
     }
 }
+
+.btn.btn-send:focus{
+  color: white;  
+}
